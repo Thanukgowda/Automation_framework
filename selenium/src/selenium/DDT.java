@@ -17,7 +17,7 @@ public class DDT
 	FileInputStream fis=new FileInputStream("./book1/selen.xlsx");
      Workbook book = WorkbookFactory.create(fis);
 	  Sheet sheet1 = book.getSheet(sheet);
-	   Row row1 = sheet1.getRow(row);
+	  // Row row1 = sheet1.getRow(row);
 	  Cell cell1 = row1.getCell(cell);
 	  
 	  String value = cell1.toString();

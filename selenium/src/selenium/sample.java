@@ -18,6 +18,7 @@ public class sample
       Workbook book = WorkbookFactory.create(fis);
 	 Sheet sheet = book.getSheet("Sheet1");
 	 Row row = sheet.getRow(1);
+	 
 	 Cell cell = row.getCell(0);
 	 String value = cell.toString();
 	 System.out.println(value);
